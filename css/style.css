@@ -30,6 +30,14 @@ ul{
     color:#ffffff;
 }
 
+.dark{
+    padding:15px;
+    background:#35424a;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
 /* Header */
 header{
     background:#35424a;  /* background color */
@@ -138,6 +146,21 @@ header a:hover{   /*styles the header links so they turn grey and bold when hove
     width:90px; /* readjust box images */
 }
 
+
+/* sidebar */
+aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+}
+
+/* main-col */
+article#main-col{
+    float:left;
+    width:65%;
+}
+
+
 footer{
     padding:20px;
     margrin-top:20px;
@@ -145,3 +168,4 @@ footer{
     background-color:#e8491d;
     text-align: center;
 }
+
