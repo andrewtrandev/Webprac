@@ -52,3 +52,24 @@ header nav{
     float:right;
     margin-top: 10px;
 }
+
+header .highlight, header .current a{  /*so this gives a orange highlight to the first half of the branding*/
+    color: #e8491d;              /* also applied the colour to the curent header class*/                   
+    font-weight: bold;
+
+}
+
+header a:hover{   /*styles the header links so they turn grey and bold when hovered over*/
+    color:#cccccc;
+    font-weight:bold;
+}
+
+/*showcase */
+
+#showcase{
+    min-height: 400px;  /*you define one parameter so that it is responsive */
+    /* min-width: 400px; */
+    background:url('../img/showcase.jpg') no-repeat 0 -400px; /* url, image: no-repeat, move picture by x and y axis */
+    text-align:center;
+    color:#ffffff;
+}
