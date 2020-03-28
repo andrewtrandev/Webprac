@@ -6,16 +6,28 @@ body{
     background-color:#f4f4f4
 } 
 
-ul{
-    margin:0; /* remove margin so it sits on the bottom of header */
-    padding:0; /* removes the padding for same as above? */
-}
+
 
 /* Global */
 .container{  /* class */
     width:80%;  /* setting it to a percentage instead of pixels so that it is responsive */
     margin:auto; /*auto centers content */
     overflow:hidden; /* if things over flow out of a div don't show a scroll bar and hide content */
+    /* display:flex; */
+}
+
+ul{
+    margin:0; /* remove margin so it sits on the bottom of header */
+    padding:0; /* removes the padding for same as above? */
+}
+
+.button_1{
+    height:37px;
+    background:#e8491d;
+    border:0; /*buttons have borders around them, this removes it*/
+    padding-left: 20px; /*adds padding to left and right of subscribe text*/
+    padding-right:20px;
+    color:#ffffff;
 }
 
 /* Header */
@@ -72,4 +84,64 @@ header a:hover{   /*styles the header links so they turn grey and bold when hove
     background:url('../img/showcase.jpg') no-repeat 0 -400px; /* url, image: no-repeat, move picture by x and y axis */
     text-align:center;
     color:#ffffff;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#showcase p{
+    font-size:20px;
+}
+
+
+/* Newsletter */
+
+#newsletter{
+    padding:15px;
+    background:#35424a;
+    color:#ffffff;
+}
+
+#newsletter h1{
+    float:left;
+}
+
+#newsletter form{
+    float:right;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+}
+
+
+/* Boxes */
+#boxes{
+    margin-top:20px;
+}
+
+#boxes .box{
+    float:left; /* float is used for positioning and formatting content*/
+    text-align: center;  /*e.g left,right,none,inherit, left-floats to left of container*/
+    width:30%;
+    padding:10px;
+    /*maybe use flexbox to replace this*/
+}
+
+#boxes .box img{
+    width:90px; /* readjust box images */
+}
+
+footer{
+    padding:20px;
+    margrin-top:20px;
+    color:#ffffff;
+    background-color:#e8491d;
+    text-align: center;
 }
