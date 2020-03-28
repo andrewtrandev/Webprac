@@ -1,0 +1,54 @@
+body{ 
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    /* font size, font height, and font primary, secondary etc */
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4
+} 
+
+ul{
+    margin:0; /* remove margin so it sits on the bottom of header */
+    padding:0; /* removes the padding for same as above? */
+}
+
+/* Global */
+.container{  /* class */
+    width:80%;  /* setting it to a percentage instead of pixels so that it is responsive */
+    margin:auto; /*auto centers content */
+    overflow:hidden; /* if things over flow out of a div don't show a scroll bar and hide content */
+}
+
+/* Header */
+header{
+    background:#35424a;  /* background color */
+    color:#ffffff;  /*text colour*/
+    padding-top:30px;
+    min-height: 70px; /*responsive on smaller screen*/
+    border-bottom:#e8491d 3px solid; /* that bottom border for the head */
+}
+
+header a{
+    color:#ffffff;
+    text-decoration:none; /*removes the underline from the links*/
+    text-transform: uppercase;
+    font-size:16px;
+}
+
+header li{
+    
+    display:inline; /*makes display only take up character space instead of block */
+    padding: 0 20px 0 20px; /* top, right, bottom, left */
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top: 10px;
+}
